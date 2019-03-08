@@ -13,24 +13,27 @@ Task 1
 
 3. Run the ``ganga-job.py`` file as:
 
-.. code-block:: bash
+```
 
     ganga -i ganga-job.py
 
+```
 4. Navigate to the directory suggested by ``job.outputdir`` to check output.
 
 Note 1 : This requires that the pages of CERN.pdf already be split using the provided ``split-pdf.py``, as follows (however, the split pages are already provided):
 
-.. code-block:: bash
+```
 
     python split-pdf.py CERN.pdf
 
+```
 Note 2 : Ensure that at the Ganga prompt, you use ``chmod`` to set executable permissions for ``count-word.sh`` and ``custommerge.py``:
 
-.. code-block:: bash
+``` 
 
-   $ !chmod -x FILENAME
+   	!chmod -x FILENAME
 
+```
 Explanation for task 1
 ----------------------
 
